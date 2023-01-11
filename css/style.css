@@ -59,6 +59,8 @@ h5,
 h6 {
   margin: 0;
 }
+ 
+
 
 p {
   margin: 0;
@@ -77,11 +79,11 @@ p {
   margin-left: 260px;
  }
  div.gallery {
+  margin: 2px;
   border: 1px solid #ccc;
-  display: block;
-  margin:0;
-  
- }
+  float: center;
+  width: 200px;
+}
  div.gallery:hover {
   border: 5px solid #777;
  }
@@ -90,4 +92,27 @@ p {
   height: auto;
   
  }
- 
+ div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ .vl {
+  border-left: 6px solid green;
+  height: 600px;
+  position: absolute;
+  left: 25%;
+  margin-left: -3px;
+  top: 520px;
+}
+.para {
+  display: block;
+  text-align: right;
+  margin: auto 0;
+}
+.footer { 
+  display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #1b1b1c;
+    color: #fff;
+}
