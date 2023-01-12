@@ -105,9 +105,9 @@ p {
   top: 520px;
 }
 .para {
-  display: block;
-  text-align: right;
-  margin: auto 0;
+  
+  text-align: left;
+  
 }
 .footer { 
   display: flex;
@@ -115,4 +115,5 @@ p {
     padding: 5px;
     background-color: #1b1b1c;
     color: #fff;
+    margin-top: 100px;
 }
